@@ -13,37 +13,59 @@
       line-height: 1.6;
       color: #111;
     }
-    h1 { font-size: 32px; }
-    .box {
+
+    h1 {
+      font-size: 34px;
+      margin-bottom: 24px;
+    }
+
+    .notice {
       border: 1px solid #ddd;
-      border-radius: 12px;
-      padding: 24px;
+      border-radius: 14px;
+      padding: 28px;
       background: #fafafa;
+    }
+
+    ul {
+      margin-top: 8px;
+    }
+
+    strong {
+      font-weight: 700;
     }
   </style>
 </head>
 <body>
-  <h1>WerkNova Notice</h1>
+  <h1>WerkNova</h1>
 
-  <div class="box">
+  <main class="notice">
     <p>
-      This domain is owned by the WerkNova project.
+      WerkNova is an independent software project.
     </p>
 
     <p>
-      We are not affiliated with any interview platform, recruiter, employer,
-      or software download campaign using the WerkNova name.
+      We are aware of reports describing fake job interviews and malware campaigns
+      using the name <strong>"WerkNova"</strong>.
     </p>
 
     <p>
-      We never ask anyone to run terminal commands such as
-      <strong>curl</strong>, <strong>bash</strong>, or
-      <strong>PowerShell</strong> during interviews.
+      Those activities are not affiliated with this project.
     </p>
 
     <p>
-      If you were asked to do this, do not continue and report the incident.
+      We never ask candidates or users to:
     </p>
-  </div>
+
+    <ul>
+      <li>run terminal commands such as <strong>curl</strong>, <strong>bash</strong>, or <strong>PowerShell</strong></li>
+      <li>disable security protections</li>
+      <li>install software from unofficial sources</li>
+    </ul>
+
+    <p>
+      If someone asks you to do this during a recruitment process, treat it as
+      suspicious and verify the request independently.
+    </p>
+  </main>
 </body>
 </html>
